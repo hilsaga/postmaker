@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.json
+!package.json
+
+.cache/
+outputs/*
+docs/*
+!outputs/.gitkeep
+inputs/*
+!inputs/.gitkeep
+.DS_Store
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
